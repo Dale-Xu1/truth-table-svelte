@@ -5,6 +5,15 @@ This is a web application that generates a truth table given an arbitrary boolea
 
 This is a revision of a program I created four years ago to do my homework in high school, but now that I'm basically learning the same thing again in college, I thought that I would get the program running again and update the codebase a bit.
 
+## Setup
+
+Node.js is required to run the program.
+
+```bash
+npm install
+npm run dev
+```
+
 ## Example
 
 Operations that are supported are: NOT(!), AND (&), OR (|), CONDITION (->), BICONDITION (<->), and XOR(^). The first text input is the expression, while the second allows the user to specify the variable order in the table via a comma-separated list.
